@@ -1,0 +1,28 @@
+
+
+.hero{
+   background-color:  #5454D4;
+}
+.hero__container{
+    width: 900px;
+    height: 200px;
+}
+.hero__list{
+    padding-top: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+.hero__item{
+    width: 400px;
+    list-style: none;
+}
+.hero__text{
+    font-family: "promt",sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+ }
+ .hero__text-name{
+       font-family: "promt",sans-serif;
+       font-size: 14px;
+       line-height: 24px;
+}

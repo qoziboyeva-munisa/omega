@@ -1,0 +1,39 @@
+*{
+    font-family: "promt",sans-serif;
+}
+.ending__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ending__box{
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.ending__title{
+    font-size: 50px;
+    margin: 0;
+}
+.ending__text{
+    width: 430px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #696871;
+}
+.ending__btn{
+    border-radius: 10px;
+    width:200px;
+    height:60px;
+    font-size:21px;
+    color: black;
+    background-color: #fff;
+    border: 1px solid #bbb;
+}
+.ending__btn:hover{
+    background-color: #F04037;
+    border:0;
+    border-radius: 10px;
+    color: #fff;
+}

@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+}
+.addition{
+    padding: 80px 0;
+}
+.addition__container{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+.addition__title{
+    font-size: 50px;
+    margin: 0;
+}
+.addition__text{
+    font-size: 16px;
+    color: #696871;
+    text-align: center;
+}
+.addition__list{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.addition__btn{
+    background-color: transparent;
+    border: 0;
+}
+.addition__btn:hover{
+    cursor: pointer;
+}
+.addition__btn img{
+    width: 150px;
+}
+
+

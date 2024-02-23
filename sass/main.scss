@@ -1,0 +1,52 @@
+/* prompt-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/prompt-v10-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* prompt-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/prompt-v10-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* prompt-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/prompt-v10-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* prompt-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/prompt-v10-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@import"./navbar.scss";
+@import"./header.scss";
+@import"./hero.scss";
+@import"./pricing.scss";
+@import"./inside.scss";
+@import"./ending.scss";
+@import"./continue.scss";
+@import"./addition.scss";
+@import"./footer.scss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1000px;
+}

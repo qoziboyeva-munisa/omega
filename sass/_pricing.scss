@@ -1,0 +1,57 @@
+
+
+.pricing__container{
+    display: flex;
+    justify-content: space-between;
+     width: 900px;
+     height: 500px;
+}
+.pricing__img{
+    padding-top: 50px;
+}
+.pricing__box{
+    width: 400px;
+}
+.pricing__title{
+    padding-top: 50px;
+    font-family: "promt",sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+    word-spacing: 6px;
+    letter-spacing: 4px;
+}
+.pricing__text{
+    font-family: "promt",sans-serif;
+    color: #696871;
+    font-size: 13px;
+    line-height: 20px;
+    word-spacing: 4px;
+    letter-spacing: 0.5px;
+}
+.pricing__list{
+    display: flex;
+    flex-direction: column;
+}
+.pricing__item{
+    padding-top: 30px;
+    width: 300px;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+}
+.pricing__title-name{
+    font-family: "promt",sans-serif;
+    line-height: 20px;
+    font-size: 16px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+ }
+ .pricing__text-name{
+    width: 250px;
+    font-family: "promt",sans-serif;
+    font-size: 10px;
+    line-height: 16px;
+    color: #696871;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}

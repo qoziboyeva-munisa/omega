@@ -1,0 +1,42 @@
+
+.inside__container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 1000px;
+   height: 600px;
+}
+.inside__list{
+    padding-top: 40px;
+    height: 600px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.inside__item{
+   width: 230px;
+   height: 480px;
+   list-style: none;
+}
+.inside__item1{
+    padding-top: 40px;
+    width: 230px;
+    height: 480px;
+    list-style: none;
+ }
+.inside__img{
+    padding: 5px 0px;
+}
+.inside__box{
+    width: 430px;
+}
+.inside__title{
+    font-family: "promt", sans-serif;
+    font-size: 45px;
+    line-height: 60px;
+}
+.inside__text{
+    font-family: "promt", sans-serif;
+    font-size: 16px;
+    line-height: 33px;
+}

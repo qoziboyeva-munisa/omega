@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+}
+.footer{
+    border-top: 1px solid #EAE9F2;
+    padding: 20px 0;
+}
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.footer__text{
+    font-size: 13px;
+}
+.footer__link{
+    text-decoration: none;
+    color: #19191B;
+    font-size: 13px;
+}
